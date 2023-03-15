@@ -39,19 +39,21 @@
 .cards-img {
 	height: 112px;
 	width: 112px;
+	object-fit: cover;
 	border-radius: 50%;
 	border: 3px solid var(--cntc);
 	margin:40px 0;
     transition: 0.25s;
 }
 
-
 .cards-img:hover {
-	width: 100%;
-	height: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
 	border: none;
 	border-radius: 0;
-	transform: scale(2.0);
+	position: absolute;
+	top: 0;
 }
 
 
