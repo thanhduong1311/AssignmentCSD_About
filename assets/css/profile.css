@@ -46,6 +46,16 @@
     transition: 0.25s;
 }
 
+.cards-img-mentor {
+	height: 112px;
+	width: 112px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid var(--cntc);
+	margin:40px 0;
+    transition: 0.25s;
+}
+
 .cards-img:hover {
 	min-height: 100%;
 	min-width: 100%;

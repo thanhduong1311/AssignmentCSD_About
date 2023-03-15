@@ -22,12 +22,19 @@ html {
     font-size: 30px;
 }
 
+#body {
+    background-image:url("../img/bg.jpg");
+    background-size: cover;
+}
+
 .tittle {
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
 }
 
-.tittle p {
+.tittle>p {
+    color: black;
     font-size: 32px;
     font-weight: 500;
 }
