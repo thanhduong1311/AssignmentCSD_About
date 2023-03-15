@@ -23,6 +23,19 @@
     overflow: hidden;
 }
 
+.cards-mentor {
+	width: 250px;
+	height: 400px;
+    background-color: #242628;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 12px;
+    border-radius: 12px;
+    transition: 1s;
+    overflow: hidden;
+}
+
 .cards-img {
 	height: 112px;
 	width: 112px;

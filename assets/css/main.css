@@ -21,3 +21,19 @@ html {
 .header-navBar p:nth-child(2){
     font-size: 30px;
 }
+
+.tittle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tittle p {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#footer {
+    padding: 20px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
