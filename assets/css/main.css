@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-navBar {
+    background: linear-gradient(90deg,#b066fe, #63e2ff);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-navBar p:first-child{
+    font-size: 50px;
+}
+
+.header-navBar p:nth-child(2){
+    font-size: 30px;
+}
