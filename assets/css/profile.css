@@ -21,6 +21,7 @@
     border-radius: 12px;
     transition: 1s;
     overflow: hidden;
+	object-fit: contain;
 }
 
 .cards-mentor {
@@ -63,7 +64,7 @@
 	min-width: 100%;
 	object-fit: cover;
 	border: none;
-	border-radius: 12px;
+	border-radius: 0 0 12px 12px;
 	position: absolute;
 	top: 0;
 }
