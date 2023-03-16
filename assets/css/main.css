@@ -6,12 +6,21 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .header-navBar {
     background: linear-gradient(90deg,#b066fe, #63e2ff);
     color: #fff;
     padding: 10px 0;
+    position: relative;
+}
+
+.header-navBar .logo {
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 .header-navBar p:first-child{
@@ -25,13 +34,24 @@ html {
 #body {
     background-image:url("../img/bg.jpg");
     background-size: cover;
+    padding: 40px 0 40px;
+    background-clip: padding-box;
+    background-position: bottom;
+    
 }
 
 .tittle {
-    color: #fff;
     font-size: 40px;
     font-weight: bold;
 }
+
+#body .tittle{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
 
 .tittle>p {
     color: black;
@@ -43,4 +63,30 @@ html {
     padding: 20px 0;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+.about ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: .2s linear;
+}
+
+.about ul li a:hover {
+    color: red;
+    transform: scale(1.5);
+}
+
+.about .text-about {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
 }
