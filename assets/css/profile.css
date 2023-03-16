@@ -59,7 +59,7 @@
 }
 
 .cards-img:hover {
-	min-height: calc(100% - 20px);
+	min-height: calc(100% - 30px);
 	min-width: 100%;
 	object-fit: cover;
 	border: none;
