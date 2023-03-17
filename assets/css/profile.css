@@ -90,16 +90,30 @@ margin-top: 5px;
 
 .cards-contact {
     transition: 0.25s;
-	
 	display: flex;
 	justify-content: center;
 }
+
+.unactive {
+	display: none;
+}
+
 .cards-contact i{
 	display: inline-block;
 	color: #fff;
 	font-size:16px ;
 	transition: 0.25s;
-	margin: 15px 20px;
+	margin: 15px 10px;
+	padding: 5px;
+}
+
+.cards-contact svg{
+	display: inline-block;
+	color: #fff;
+	font-size:16px ;
+	transition: 0.25s;
+	margin: 15px 10px;
+	padding: 5px;
 }
 
 .cards-btn {

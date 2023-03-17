@@ -5,6 +5,7 @@
 } 
 
 html {
+	user-select: none;
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
@@ -14,6 +15,7 @@ html {
     color: #fff;
     padding: 10px 0;
     position: relative;
+    font-weight: bold;
 }
 
 .header-navBar .logo {
