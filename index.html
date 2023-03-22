@@ -112,21 +112,13 @@
 
         </div>
 
-            <!-- about -->
-            <div class="about col-lg-12 text-center tittle"> Contents
-               <ul>
-                <li><a href="#about">Introduction</a></li>
-                <li><a href="#guide">Guide</a></li>
-                <li><a href="#body">About Us</a></li>
-               </ul>
-            </div>
 
 
             <div class="about col-lg-12 text-center tittle">
                 About project
-                <p class="text-about"><br>
+                <p class="guide-content">The convex hull of a set of points is the smallest convex polygon that can contain all the points in a given space. The monotone chain algorithm is an effective method for this, based on splitting the shape into an upper and lower hull. <br>
+                    Our project base on Monotone chain algorithm to find a convex by axis of points.
                 </p>
-
             </div>
 
 
@@ -134,32 +126,36 @@
                 Guide
                 <p>To get started with application you need to know something</p>
 
-                <div class="col-lg-12">
-                    <p>Random a new list of points </p>
-                    <video autoplay loop>
-                        <source src="./assets/videos/random.mp4" type="video/mp4" >
-                    </video>
+                <div  class="col-lg-12 border border-danger">
+                    <p class="video-description">Random a new list of points </p>
+                    <p class="guide-content">To random a list of points, click into the Random button. Application will find a new convex of that list of points.</p>
+                   <img class="gif" src="./assets/videos/random.gif" alt="">
                 </div>
 
-                <div class="col-lg-12">
-                    <p>Move a point around they position</p>
-                    <video autoplay loop>
-                        <source src="./assets/videos/move.mp4" type="video/mp4" >
-                    </video>
+                <div class="col-lg-12 border border-danger">
+                    <p class="video-description">Move a graph</p>
+                    <p class="guide-content">Hold on blank and change the position of the graph. Scroll mouse to zoom in, zoom out.</p>
+
+                    <img class="gif" src="./assets/videos/moveGraph.gif" alt="">
                 </div>
 
-                <div class="col-lg-12">
-                    <p>Delete a point by right click into it</p>
-                    <video autoplay loop>
-                        <source src="./assets/videos/delete.mp4" type="video/mp4" >
-                    </video>
+                <div class="col-lg-12 border border-danger">
+                    <p class="video-description">Move a point around their position</p>
+                    <p class="guide-content">Hold on a point and change the their position.</p>
+
+                    <img class="gif" src="./assets/videos/move.gif" alt="">
                 </div>
 
-                <div class="col-lg-12">
-                    <p>Add a point by left click on canvas area</p>
-                    <video autoplay loop>
-                        <source src="./assets/videos/add.mp4" type="video/mp4" >
-                    </video>
+                <div class="col-lg-12 border border-danger">
+                    <p class="video-description">Delete a point</p>
+                    <p class="guide-content">To delete a point, right click into it.</p>
+                    <img class="gif" src="./assets/videos/delete.gif" alt="">
+                </div>
+
+                <div class="col-lg-12 border border-danger">
+                    <p class="video-description">Add a point</p>
+                    <p class="guide-content">To add a new point, right click into blank.</p>
+                    <img class="gif" src="./assets/videos/add.gif" alt="">
                 </div>
 
                 
@@ -177,6 +173,13 @@
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./main.js"></script>
+    <script>
+        var video_list = $('video');
+        for(let i = 0; i < video_list.length; i++){
+            video_list[i].play();
+        }
+        
+    </script>
 
 </body>
 

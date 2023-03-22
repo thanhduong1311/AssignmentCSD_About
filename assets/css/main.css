@@ -70,6 +70,7 @@ html {
 .about {
     max-width: 80vw;
     margin: 0 auto;
+    color: #f2726a;
 }
 .about ul {
     list-style-type: none;
@@ -87,12 +88,33 @@ html {
     transform: scale(1.5);
 }
 
-.about .text-about {
+ #id .about {
     text-align: justify;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
 }
 
-video {
-    width: 100%;
+.gif {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.video-description {
+    color: #f2726a;
+    font-size: 20px;
+
+}
+
+#guide p {
+    font-size: 17px;
+}
+
+#guide div {
+    margin-bottom: 40px;
+    padding: 10px 0;
+}
+
+.guide-content {
+    color: #000;
+    font-size: 15px;
 }
